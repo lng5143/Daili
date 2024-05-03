@@ -14,6 +14,6 @@ public class HeatmapController : Controllers
 
     public Task<HeatmapDataDto> GetHeatmapData()
     {
-
+        
     }
 }
