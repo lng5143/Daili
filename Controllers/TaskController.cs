@@ -1,6 +1,9 @@
+using Daily.Services;
+using Microsoft.AspNetCore.Mvc;
+
 namespace Daili.Controllers;
 
-public class TaskController : Controllers
+public class TaskController : ControllerBase
 {
     private readonly ITaskService _taskService;
 

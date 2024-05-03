@@ -1,6 +1,6 @@
 namespace Daili.Business.Enums;
 
-public enums UserTier
+public enum UserTier
 {
     Free,
     Pro
